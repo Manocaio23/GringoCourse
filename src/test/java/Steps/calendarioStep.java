@@ -43,8 +43,8 @@ public class calendarioStep {
 	}
 
 	@Entao("devo fazer meu deveres")
-	public void devo_fazer_meu_deveres() {
-
+	public void devo_fazer_meu_deveres() throws InterruptedException {
+		mc.Upload();
 	}
 
 }
