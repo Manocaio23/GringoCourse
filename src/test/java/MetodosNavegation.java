@@ -9,7 +9,7 @@ public class MetodosNavegation {
 	private WebElement file;
 	
 	
-	// Codigo para fazer upload
+	// Codigo para fazer navegações 
 	@Test
 	public void MetodoNavigatio() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver.exe");
@@ -22,7 +22,7 @@ public class MetodosNavegation {
 		driver.findElement(By.id("email")).sendKeys("testestes");
 		driver.navigate().refresh();
 		Thread.sleep(2000);
-		driver.navigate().back();// para tr�s seta
+		driver.navigate().back();// para tras seta
 		Thread.sleep(2000);
 		driver.navigate().forward();//pra frente seta	
 		
